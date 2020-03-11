@@ -1,0 +1,8 @@
+.right-side-of-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.profile-stats{
+  font-weight: bold;
+}
