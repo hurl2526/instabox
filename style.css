@@ -1,20 +1,57 @@
-.right-side-of-body {
+
+.container{
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-}
-.profile-stats{
-  font-weight: bold;
-}
+  }
 
-.container{
+.user-name{
+  font-size: 2em;
+}
+.above-stuff{
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 }
+
+.right-side-of-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.link{
+  font-weight: bold;
+}
+
+
 
 .bottom-pics{
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+}
+
+.three-close-lines{
+  line-height: .5cm;
+}
+
+.numbers{
+  font-weight: bold;
+}
+.profile-users-settings{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.profile-stats{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.gallery-item-info{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-weight: bold;
 }
