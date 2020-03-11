@@ -6,3 +6,15 @@
 .profile-stats{
   font-weight: bold;
 }
+
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.bottom-pics{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
