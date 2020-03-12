@@ -55,7 +55,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.gallery-item-info{
+.pic-info{
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
