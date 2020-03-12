@@ -22,9 +22,15 @@
 }
 .link{
   font-weight: bold;
+  color: blue;
 }
-
-
+.follow-button{
+  font-size: 1em;
+  font-weight: 500;
+}
+.ellipses{
+  border: none;
+}
 
 .bottom-pics{
   display: flex;
@@ -33,16 +39,16 @@
 }
 
 .three-close-lines{
-  line-height: .5cm;
+  line-height: .1cm;
 }
 
 .numbers{
   font-weight: bold;
 }
-.profile-users-settings{
-  display: flex;
+.profile-user-settings{
+  /* display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between; */
 }
 .profile-stats{
   display: flex;
@@ -54,4 +60,12 @@
   flex-direction: row;
   justify-content: space-evenly;
   font-weight: bold;
+}
+
+.following-line{
+  font-size: .8em;
+  color: grey;
+}
+#blackwords{
+  color: black;
 }
